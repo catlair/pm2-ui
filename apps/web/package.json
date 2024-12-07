@@ -1,0 +1,31 @@
+{
+  "name": "@mr/web",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "prepare": "panda codegen"
+  },
+  "dependencies": {
+    "@ark-ui/solid": "^4.5.1",
+    "@solidjs/router": "^0.15.0",
+    "@solidjs/start": "^1.0.10",
+    "@unocss/reset": "^0.59.2",
+    "ky": "^1.7.2",
+    "lucide-solid": "^0.465.0",
+    "solid-js": "^1.9.2",
+    "unocss": "^0.59.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@mr/server": "workspace:^",
+    "@pandacss/dev": "^0.47.1",
+    "@park-ui/cli": "^0.9.0",
+    "@park-ui/panda-preset": "^0.43.1",
+    "vinxi": "^0.4.3",
+    "vite-tsconfig-paths": "^5.1.3"
+  }
+}

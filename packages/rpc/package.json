@@ -1,0 +1,7 @@
+{
+  "name": "@mr/rpc",
+  "type": "module",
+  "devDependencies": {
+    "@mr/server": "workspace:^"
+  }
+}
